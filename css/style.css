@@ -1,0 +1,352 @@
+body {
+background: url('../images/Background1.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+background-position: center; 
+display:block;
+}
+
+.Bottom {
+	position:absolute;
+    white-space:nowrap;
+    width:800px;
+	-webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example7;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+	margin-left: -400px;
+}
+.Bottom_elements {
+    color:#6bbbe9; 
+	text-align:center;
+    display:inline-block;
+    width:calc(50% - 8px);
+    width:-webkit-calc(50% - 8px);
+    margin:4px;
+}
+
+a { 
+color: inherit;
+display: block; 
+} 
+
+.Title1 {
+	position: fixed;
+	left: 28%;
+	Top: 65%;
+	margin-top: -62.5px;
+	
+	}
+	
+.Title2 {
+	position: fixed;
+	left: 54%;
+	Top: 65%;
+	margin-top: -62.5px;
+	
+	}
+
+.filter-drop-shadow {
+  -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -ms-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  -o-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
+}
+
+.birb {
+ 			position: absolute;
+			-webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example6;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            margin-left: -394px;
+			margin-top: -60px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:25%; top:-100%;opacity: 0;}
+    100% {left:25%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:25%; top:-100%;opacity: 0;}
+    100% {left:25%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 37.5%; top:-100%;opacity: 0;}
+    100% {left: 37.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 37.5%; top:-100%;opacity: 0;}
+    100% {left: 37.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {left:62.5%; top:-100%;opacity: 0;}
+    100% {left:62.5%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {left:62.5%; top:-100%;opacity: 0;}
+    100% {left:62.5%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+    0%   {left:75%; top:-100%;opacity: 0;}
+    100% {left:75%; top:5%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example5 {
+    0%   {left:75%; top:-100%;opacity: 0;}
+    100% {left:75%; top:5%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:80%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example6 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:80%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:75%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example7 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:75%;opacity: 1;}
+}
+
+rectangle1 {
+            position: absolute;
+            background:#000;
+-webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+
+            }
+
+rectangle2 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle3 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle4 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+
+rectangle5 {
+            position: absolute;
+            background: #000;
+    -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: example5;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            height: 600px;
+            width: 150px;
+            min-width: 100px;
+            margin-left: -75px;
+box-shadow: 0px 4px 15px #000000;
+            }
+			
+@media screen and (Max-width: 1600px) {
+rectangle1 {
+            position: fixed;
+            background: #000;
+            height: 600px;
+            width: 150px;
+            left: 400px;
+            Top: 5%;
+box-shadow: 0px 4px 15px #000000;
+            margin:auto;
+            }
+
+rectangle2 {
+            position: fixed;
+            background: #000;
+            height: 600px;
+            width: 150px;
+            left: 600px;
+            Top: 5%;
+box-shadow: 0px 4px 15px #000000;
+            margin:auto;
+            }
+
+rectangle3 {
+            position: fixed;
+            background: #000;
+            height: 600px;
+            width: 150px;
+            left: 800px;
+            Top: 5%;
+box-shadow: 0px 4px 15px #000000;
+            margin:auto;
+            }
+
+rectangle4 {
+            position: fixed;
+            background: #000;
+            height: 600px;
+            width: 150px;
+            left: 1000px;
+            Top: 5%;
+box-shadow: 0px 4px 15px #000000;
+            margin:auto;
+            }
+
+rectangle5 {
+            position: fixed;
+            background: #000;
+            height: 600px;
+            width: 150px;
+            left: 1200px;
+            Top: 5%;
+box-shadow: 0px 4px 15px #000000;
+            margin:auto;
+            }
+.birb {
+ 			position: fixed;
+			left: 800px;
+            Top: 80%;
+            margin-left: -394px;
+			margin-top: -60px;
+}
+			
+}
+
+.overlay    {  
+		Display:block;
+		left: 0;
+  position: absolute;
+  top: 0;
+		overflow:hidden;
+		z-index: 20;
+		 height: 600px;
+            width: 150px;
+		background:rgba(0,0,0,.75);
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+rectangle1:hover .overlay {
+               opacity:1;}
+
+rectangle2:hover .overlay {
+               opacity:1;}
+               
+rectangle3:hover .overlay {
+               opacity:1;}
+
+rectangle4:hover .overlay {
+               opacity:1;}
+               
+rectangle5:hover .overlay {
+               opacity:1;}
+               
+
+.container {
+            width: 100%; /* Firefox needs this */
+            height: 100%; /* Height can be anything */
+
+        
+
+            }

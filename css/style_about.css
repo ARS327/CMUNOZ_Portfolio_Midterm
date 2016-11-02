@@ -1,0 +1,114 @@
+body {
+    background: url(../images/Background1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:3%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:3%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+    0%   {left: 50%; top:200%;opacity: 0;}
+    100% {left: 50%; top:44%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {left: 50%; top:200%;opacity: 0;}
+    100% {left: 50%; top:44%;opacity: 1;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:92%;opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {left:50%; top:200%;opacity: 0;}
+    100% {left:50%; top:92%;opacity: 1;}
+}
+
+.container {
+    position: relative;
+    width: 100%; /* Firefox needs this */
+    height: 100%; /* Height can be anything */
+            }
+
+portrait {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-left: -175px;
+}
+
+.column, .inner {
+    display: block;
+}
+
+Column1, .inner {
+    display: block;
+}
+
+
+Column1 {
+    position: absolute;
+    background-color: rgba(107, 187, 233, .50);
+    color:white;
+    padding: 0px;
+    width: 350px;
+    height: 430px;
+    -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    vertical-align: top;
+    margin-left: -175px;
+    
+}
+
+
+
+.inner {
+    /* specify padding, can be changed while remaining fixed width of .outer */
+    padding: 5px;
+    line-height: 70%;
+}
+
+.birb {
+ 			position: absolute;
+			-webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+            margin-left: -40px;
+}
