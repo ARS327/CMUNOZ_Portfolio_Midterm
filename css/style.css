@@ -201,10 +201,10 @@ rectangle4 {
             background: #000;
     -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
     animation-name: example4;
     animation-duration: 2s;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
             height: 600px;
@@ -219,10 +219,10 @@ rectangle5 {
             background: #000;
     -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
     animation-name: example5;
     animation-duration: 2s;
-    animation-delay: 6s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
     opacity: 0;
             height: 600px;
