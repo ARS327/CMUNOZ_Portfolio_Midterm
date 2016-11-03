@@ -35,22 +35,6 @@ color: inherit;
 display: block; 
 } 
 
-.Title1 {
-	position: fixed;
-	left: 28%;
-	Top: 65%;
-	margin-top: -62.5px;
-	
-	}
-	
-.Title2 {
-	position: fixed;
-	left: 54%;
-	Top: 65%;
-	margin-top: -62.5px;
-	
-	}
-
 .filter-drop-shadow {
   -webkit-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
   -moz-filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.75));
@@ -249,9 +233,6 @@ box-shadow: 0px 4px 15px #000000;
             }
 			
 @media screen and (Max-width: 1600px) {
-body {
-  zoom: 75%;
-}
 			
 }
 
@@ -286,8 +267,10 @@ rectangle5:hover .overlay {
                
 
 .container {
-            width: 100%; /* Firefox needs this */
+    position: absolute;
+            width: 75%; /* Firefox needs this */
             height: 100%; /* Height can be anything */
+    margin:0 auto;
 
         
 
