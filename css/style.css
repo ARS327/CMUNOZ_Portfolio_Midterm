@@ -5,6 +5,8 @@ background-size:cover;
 background-attachment: fixed;
 background-position: center; 
 display:block;
+    overflow-y:hidden; 
+    overflow-x:hidden; 
 }
 
 .Bottom {
@@ -28,6 +30,10 @@ display:block;
     width:calc(50% - 8px);
     width:-webkit-calc(50% - 8px);
     margin:4px;
+}
+
+.Bottom_elements:hover {
+    opacity: .50;
 }
 
 a { 
@@ -59,86 +65,86 @@ display: block;
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example1 {
-    0%   {left:25%; top:-100%;opacity: 0;}
-    100% {left:25%; top:5%;opacity: 1;}
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example1 {
-    0%   {left:25%; top:-100%;opacity: 0;}
-    100% {left:25%; top:5%;opacity: 1;}
+    0%   {left:21%; top:-100%;opacity: 0;}
+    100% {left:21%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
-    0%   {left: 37.5%; top:-100%;opacity: 0;}
-    100% {left: 37.5%; top:5%;opacity: 1;}
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
-    0%   {left: 37.5%; top:-100%;opacity: 0;}
-    100% {left: 37.5%; top:5%;opacity: 1;}
+    0%   {left: 35.5%; top:-100%;opacity: 0;}
+    100% {left: 35.5%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:5%;opacity: 1;}
+    100% {left:50%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:5%;opacity: 1;}
+    100% {left:50%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example4 {
-    0%   {left:62.5%; top:-100%;opacity: 0;}
-    100% {left:62.5%; top:5%;opacity: 1;}
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example4 {
-    0%   {left:62.5%; top:-100%;opacity: 0;}
-    100% {left:62.5%; top:5%;opacity: 1;}
+    0%   {left:64.5%; top:-100%;opacity: 0;}
+    100% {left:64.5%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example5 {
-    0%   {left:75%; top:-100%;opacity: 0;}
-    100% {left:75%; top:5%;opacity: 1;}
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:4%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example5 {
-    0%   {left:75%; top:-100%;opacity: 0;}
-    100% {left:75%; top:5%;opacity: 1;}
+    0%   {left:79%; top:-100%;opacity: 0;}
+    100% {left:79%; top:4%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:80%;opacity: 1;}
+    100% {left:50%; top:85%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:80%;opacity: 1;}
+    100% {left:50%; top:85%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:77%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:77%;opacity: 1;}
 }
 
 rectangle1 {
@@ -244,7 +250,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 and (Height: 1440px)
 and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi){
-			
+      
 }
 
 @media screen and (Width: 1280px)
@@ -486,9 +492,11 @@ rectangle5:hover .overlay {
                
 
 .container {
-            width: 100%; /* Firefox needs this */
-            height: 100%; /* Height can be anything */
-
-        
-
+    position: absolute;
+            width: 1440px; /* Firefox needs this */
+            height: 850px; /* Height can be anything */
+    left: 50%;
+    top: 50%;
+margin-left: -720px;
+    margin-top: -450px;
             }
