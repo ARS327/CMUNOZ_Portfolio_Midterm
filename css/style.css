@@ -249,85 +249,85 @@ body    .container {
     /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example1 {
     0%   {left:21%; top:-100%;opacity: 0;}
-    100% {left:21%; top:.5%;opacity: 1;}
+    100% {left:21%; top:0%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example1 {
     0%   {left:21%; top:-100%;opacity: 0;}
-    100% {left:21%; top:.5%;opacity: 1;}
+    100% {left:21%; top:0%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
     0%   {left: 35.5%; top:-100%;opacity: 0;}
-    100% {left: 35.5%; top:.5%;opacity: 1;}
+    100% {left: 35.5%; top:0%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
     0%   {left: 35.5%; top:-100%;opacity: 0;}
-    100% {left: 35.5%; top:.5%;opacity: 1;}
+    100% {left: 35.5%; top:0%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:.5%;opacity: 1;}
+    100% {left:50%; top:0%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example3 {
     0%   {left:50%; top:-100%;opacity: 0;}
-    100% {left:50%; top:.5%;opacity: 1;}
+    100% {left:50%; top:0%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example4 {
     0%   {left:64.5%; top:-100%;opacity: 0;}
-    100% {left:64.5%; top:.5%;opacity: 1;}
+    100% {left:64.5%; top:0%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example4 {
     0%   {left:64.5%; top:-100%;opacity: 0;}
-    100% {left:64.5%; top:.5%;opacity: 1;}
+    100% {left:64.5%; top:0%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example5 {
     0%   {left:79%; top:-100%;opacity: 0;}
-    100% {left:79%; top:.5%;opacity: 1;}
+    100% {left:79%; top:0%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example5 {
     0%   {left:79%; top:-100%;opacity: 0;}
-    100% {left:79%; top:.5%;opacity: 1;}
+    100% {left:79%; top:0%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:85%;opacity: 1;}
+    100% {left:50%; top:84%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example6 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:85%;opacity: 1;}
+    100% {left:50%; top:84%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:74%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example7 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:75%;opacity: 1;}
+    100% {left:50%; top:74%;opacity: 1;}
 }
 
     
