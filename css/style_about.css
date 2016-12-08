@@ -5,60 +5,57 @@ body {
     background-attachment: fixed;
     background-position: center; 
 <<<<<<< HEAD
+<<<<<<< HEAD
     overflow-y:hidden; 
     overflow-x:hidden; 
 =======
 	overflow-y:hidden;  
 >>>>>>> origin/master
+=======
+>>>>>>> parent of d5a88f7... Local Update 1
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example1 {
-    0%   {left:35%; top:-100%;opacity: 0;}
-    100% {left:35%; top:3%;opacity: 1;}
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:3%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example1 {
-    0%   {left:35%; top:-100%;opacity: 0;}
-    100% {left:35%; top:3%;opacity: 1;}
+    0%   {left:50%; top:-100%;opacity: 0;}
+    100% {left:50%; top:3%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example2 {
-    0%   {left: 35%; top:200%;opacity: 0;}
-    100% {left: 35%; top:46%;opacity: 1;}
+    0%   {left: 50%; top:200%;opacity: 0;}
+    100% {left: 50%; top:44%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example2 {
-    0%   {left: 35%; top:200%;opacity: 0;}
-    100% {left: 35%; top:46%;opacity: 1;}
+    0%   {left: 50%; top:200%;opacity: 0;}
+    100% {left: 50%; top:44%;opacity: 1;}
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example3 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:98%;opacity: 1;}
+    100% {left:50%; top:92%;opacity: 1;}
 }
 
 /* Standard syntax */
 @keyframes example3 {
     0%   {left:50%; top:200%;opacity: 0;}
-    100% {left:50%; top:98%;opacity: 1;}
+    100% {left:50%; top:92%;opacity: 1;}
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example4 {
-    0%   {left:66%; top:-100%;opacity: 0;}
-    100% {left:66%; top:48%;opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes example4 {
-    0%   {left:66%; top:-100%;opacity: 0;}
-    100% {left:66%; top:48%;opacity: 1;}
-}
+.container {
+    position: relative;
+    width: 100%; /* Firefox needs this */
+    height: 100%; /* Height can be anything */
+            }
 
 portrait {
     position: absolute;
@@ -87,11 +84,11 @@ Column1, .inner {
 
 Column1 {
     position: absolute;
-    background-color: rgba(107, 187, 233, .25);
+    background-color: rgba(107, 187, 233, .50);
     color:white;
-    padding: 15px;
+    padding: 0px;
     width: 350px;
-    height: 400px;
+    height: 430px;
     -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
@@ -103,35 +100,18 @@ Column1 {
     vertical-align: top;
     margin-left: -175px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 =======
 	overflow-y:hidden;  
     
 >>>>>>> origin/master
+=======
+    
+>>>>>>> parent of d5a88f7... Local Update 1
 }
 
-Column2 {
-    position: absolute;
-    background-color: rgba(107, 187, 233, .25);
-    color:white;
-    padding: 25px;
-    width: 500px;
-    height: 765px;
-    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: example4;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    vertical-align: top;
-    margin-left: -250px;
-    margin-top: -382.5px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 
 .inner {
@@ -144,13 +124,14 @@ Column2 {
  			position: absolute;
 			-webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
     animation-name: example3;
     animation-duration: 2s;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
     opacity: 0;
             margin-left: -40px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -167,3 +148,6 @@ margin-left: -720px;
 	overflow-y:hidden;  
 }
 >>>>>>> origin/master
+=======
+}
+>>>>>>> parent of d5a88f7... Local Update 1

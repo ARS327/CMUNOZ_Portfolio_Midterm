@@ -36,6 +36,7 @@
 
 p.sansserif {font-family: 'Noto Sans', sans-serif; color: white;}
 
+<<<<<<< HEAD
 .hero-name{
     color:#ffffff;
     background:-webkit-linear-gradient(#f0edf2 50%,rgba(240,237,242,0));
@@ -46,19 +47,13 @@ p.sansserif {font-family: 'Noto Sans', sans-serif; color: white;}
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
 >>>>>>> origin/master
 }
+=======
+.hero-name{color:#ffffff;background:-webkit-linear-gradient(#f0edf2 50%,rgba(240,237,242,0));-webkit-background-clip:text;text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);}
+>>>>>>> parent of d5a88f7... Local Update 1
 
-.hero-name1{color:#bdf4ff;
-    background:-webkit-linear-gradient(#f0edf2 50%,rgba(240,237,242,0));
-    -webkit-background-clip:text;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
-}
+.hero-name1{color:#bdf4ff;background:-webkit-linear-gradient(#f0edf2 50%,rgba(240,237,242,0));-webkit-background-clip:text;text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);}
 
-.hero-detail-role-name{color:#f0edf2;
-    display:inline-block;
-    vertical-align:text-top;
-    line-height:.75;
-    margin-top:0
-} 
+.hero-detail-role-name{color:#f0edf2;display:inline-block;vertical-align:text-top;line-height:.75;margin-top:0} 
 
 .BigNoodleToo-normal-italic { 
 	font-family: BigNoodleToo;
@@ -79,12 +74,4 @@ h1 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
-}
-
-.hero-name2{
-    color:#ffffff;
-    background:-webkit-linear-gradient(#f0edf2 50%,rgba(240,237,242,0));
-    -webkit-background-clip:text;
-    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
-    float: left;
 }
